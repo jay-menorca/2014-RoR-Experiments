@@ -19,8 +19,8 @@ development:
   encoding: unicode
   database: jaysBlog_development
   pool: 5
-  username: jaysBlog
-  password:
+  username: postgres
+  password: P@ssw0rd1
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +48,13 @@ test:
   encoding: unicode
   database: jaysBlog_test
   pool: 5
-  username: jaysBlog
-  password:
+  username: postgres
+  password: P@ssw0rd1
 
 production:
   adapter: postgresql
   encoding: unicode
   database: jaysBlog_production
   pool: 5
-  username: jaysBlog
-  password:
+  username: postgres
+  password: P@ssw0rd1
