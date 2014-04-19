@@ -11,3 +11,26 @@
  *= require_self
  *= require_tree .
  */
+
+
+
+body {
+	background-color: lightgrey;
+	color: darkred;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+
+.field_with_errors input{
+	border: 3px solid red;
+}
+
+textarea {
+	width: 600px;
+	height: 250px;
+}
