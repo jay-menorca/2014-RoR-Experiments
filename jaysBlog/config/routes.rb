@@ -9,6 +9,8 @@ JaysBlog::Application.routes.draw do
     resources :comments
   end
 
+  resources :photos
+  
   root 'welcome#index'
 
   # Example of regular route:
